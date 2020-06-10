@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddBook Container Should render correctly 1`] = `
+<form
+  className="form col s12"
+  onSubmit={[Function]}
+>
+  <div
+    className="row customRow"
+  >
+    <div
+      className="input-field col s12 m6"
+    >
+      <input
+        className="name"
+        id="name"
+        name="name"
+        onChange={[Function]}
+        type="text"
+        value=""
+      />
+      <label
+        htmlFor="name"
+      >
+        Book Name
+      </label>
+    </div>
+    <div
+      className="input-field col s12 m6"
+    >
+      <input
+        className="Author"
+        id="author"
+        name="author"
+        onChange={[Function]}
+        type="text"
+        value=""
+      />
+      <label
+        htmlFor="author"
+      >
+        Book Author
+      </label>
+    </div>
+  </div>
+  <div
+    className="row customRow"
+  >
+    <div
+      className="input-field col s12 m12"
+    >
+      <input
+        className="description"
+        id="description"
+        name="description"
+        onChange={[Function]}
+        type="text"
+        value=""
+      />
+      <label
+        htmlFor="description"
+      >
+        Book Description
+      </label>
+    </div>
+  </div>
+  <button
+    className="waves-effect waves-light btn-small"
+    type="submit"
+  >
+    Add Book
+  </button>
+</form>
+`;

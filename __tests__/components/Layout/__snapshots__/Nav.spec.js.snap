@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navigation should render without errors 1`] = `
+<nav>
+  <div
+    className="nav-wrapper grey"
+  >
+    <div
+      className="container"
+    >
+      <a
+        className="brand-logo"
+        href="!#"
+      >
+        <i
+          className="large material-icons"
+        >
+          import_contacts
+        </i>
+        Books App
+      </a>
+      <ul
+        className="right hide-on-med-and-down"
+        id="nav-mobile"
+      >
+        <li>
+          <a
+            href="collapsible.html"
+          >
+            Books
+          </a>
+        </li>
+        <li>
+          <a
+            href="sass.html"
+          >
+            Add Book
+          </a>
+        </li>
+        <li>
+          <a
+            href="badges.html"
+          >
+            Edit Book
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+`;
