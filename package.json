@@ -5,11 +5,14 @@
   "main": "src/index.js",
   "author": "Srinivas Vasari",
   "private": true,
+  "homepage": "https://SrinivasVasari.github.io/books-react-app",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "jest --coverage",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -31,6 +34,7 @@
     "enzyme-adapter-react-16": "^1.15.1",
     "enzyme-to-json": "^3.5.0",
     "eslint-plugin-react-hooks": "^4.0.4",
+    "gh-pages": "^3.0.0",
     "jest": "^24.9.0",
     "react-test-renderer": "^16.13.1"
   },

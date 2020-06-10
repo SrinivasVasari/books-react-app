@@ -25,21 +25,21 @@ exports[`Navigation should render without errors 1`] = `
       >
         <li>
           <a
-            href="collapsible.html"
+            href="!#"
           >
             Books
           </a>
         </li>
         <li>
           <a
-            href="sass.html"
+            href="!#"
           >
             Add Book
           </a>
         </li>
         <li>
           <a
-            href="badges.html"
+            href="!#"
           >
             Edit Book
           </a>
