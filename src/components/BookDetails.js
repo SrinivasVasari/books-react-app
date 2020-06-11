@@ -8,10 +8,10 @@ const BookDetails = ({ book, clickFn }) => {
         <div className="details">
           <span>Title:</span> <span>{bookName}</span>
         </div>
-        <div id="close" className="details-btn" onClick={clickFn}>
+        <button type="button" id="close" className="details-btn" onClick={clickFn}>
           <span className="content">Close</span>
           <i className="material-icons">reply</i>
-        </div>
+        </button>
         <div className="details">
           <span>Author:</span>
           <span>{bookAuthor}</span>
@@ -23,9 +23,9 @@ const BookDetails = ({ book, clickFn }) => {
             dangerouslySetInnerHTML={{ __html: bookDesc }}
           />
         </div>
-        <div id="close" className="close-btn waves-effect waves-light btn-small" onClick={clickFn}>
+        <button type="button" id="close" className="close-btn waves-effect waves-light btn-small" onClick={clickFn}>
           <span className="content">Close</span>
-        </div>
+        </button>
       </>
     );
   } else {

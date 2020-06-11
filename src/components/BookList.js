@@ -40,7 +40,8 @@ const BookList = () => {
                       </div>
                       <div className="btn-container">
                         <div className="btn-grp">
-                          <span
+                          <button
+                            type="button"
                             id="edit"
                             onClick={() =>
                               dispatch({
@@ -48,11 +49,12 @@ const BookList = () => {
                                 payload: book,
                               })
                             }
-                            className="edit-btn btn-floating btn-small waves-effect waves-light blue"
+                            className="edit-btn waves-effect waves-light btn-small blue"
                           >
                             <i className="material-icons">edit</i>
-                          </span>
-                          <span
+                          </button>
+                          <button
+                            type="button"
                             id="delete"
                             onClick={() =>
                               dispatch({
@@ -60,19 +62,20 @@ const BookList = () => {
                                 payload: book.id,
                               })
                             }
-                            className="delete-btn btn-floating btn-small waves-effect waves-light orange"
+                            className="delete-btn waves-effect waves-light btn-small orange"
                           >
                             <i className="material-icons">delete</i>
-                          </span>
+                          </button>
                         </div>
-                        <span
+                        <button
+                          type="button"
                           id="details"
                           onClick={(e) => setSelected(book.id)}
                           className="details-btn"
                         >
                           <span className="content">details</span>
                           <i className="material-icons">reply</i>
-                        </span>
+                        </button>
                       </div>
                     </li>
                     <div className="back">
