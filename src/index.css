@@ -219,6 +219,12 @@ h5 {
   border: none;
   background: #fff;
 }
+.details-btn:focus {
+  outline: none;
+  border: 1px solid #000;
+  border-radius: 4px;
+  background: none;
+}
 .close-btn {
   margin-top: 1rem;
 }
