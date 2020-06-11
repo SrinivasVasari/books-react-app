@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/books-react-app/static/css/main.7d85ceca.chunk.css",
-    "main.js": "/books-react-app/static/js/main.75f91c32.chunk.js",
-    "main.js.map": "/books-react-app/static/js/main.75f91c32.chunk.js.map",
+    "main.css": "/books-react-app/static/css/main.23aebc9e.chunk.css",
+    "main.js": "/books-react-app/static/js/main.2b4afc5a.chunk.js",
+    "main.js.map": "/books-react-app/static/js/main.2b4afc5a.chunk.js.map",
     "runtime-main.js": "/books-react-app/static/js/runtime-main.8e70d1f2.js",
     "runtime-main.js.map": "/books-react-app/static/js/runtime-main.8e70d1f2.js.map",
     "static/js/2.013867ae.chunk.js": "/books-react-app/static/js/2.013867ae.chunk.js",
     "static/js/2.013867ae.chunk.js.map": "/books-react-app/static/js/2.013867ae.chunk.js.map",
     "index.html": "/books-react-app/index.html",
-    "precache-manifest.ad6148d43814ed3e8b3b3dada644f4ea.js": "/books-react-app/precache-manifest.ad6148d43814ed3e8b3b3dada644f4ea.js",
+    "precache-manifest.f6a39a5a96e37a09deeb4393cc41c90d.js": "/books-react-app/precache-manifest.f6a39a5a96e37a09deeb4393cc41c90d.js",
     "service-worker.js": "/books-react-app/service-worker.js",
-    "static/css/main.7d85ceca.chunk.css.map": "/books-react-app/static/css/main.7d85ceca.chunk.css.map",
+    "static/css/main.23aebc9e.chunk.css.map": "/books-react-app/static/css/main.23aebc9e.chunk.css.map",
     "static/js/2.013867ae.chunk.js.LICENSE.txt": "/books-react-app/static/js/2.013867ae.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.8e70d1f2.js",
     "static/js/2.013867ae.chunk.js",
-    "static/css/main.7d85ceca.chunk.css",
-    "static/js/main.75f91c32.chunk.js"
+    "static/css/main.23aebc9e.chunk.css",
+    "static/js/main.2b4afc5a.chunk.js"
   ]
 }
